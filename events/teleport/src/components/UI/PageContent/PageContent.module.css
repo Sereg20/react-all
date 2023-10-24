@@ -1,0 +1,17 @@
+.content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0,122,255);
+    height: 100vh;
+    background: rgb(155,222,245);
+    background: linear-gradient(0deg, rgba(155,222,245,1) 0%,  rgba(255,255,255,1) 100%);
+}
+
+.content button {
+    margin-top: 60vh;
+    font-size: 24px;
+    padding: 0.6rem 2.2rem;
+}

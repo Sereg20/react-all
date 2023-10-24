@@ -1,0 +1,18 @@
+{
+  "rules": {
+      "users": {
+        ".read": "auth.uid !== null",
+        ".write": true
+      },
+      "comments": {
+        ".indexOn": "eventSubType",
+        ".read": true,
+        ".write": true
+      },
+      "events": {
+        ".indexOn": ["eventType", "eventSubType"],
+        ".read": true,
+        ".write": true
+      }
+  }
+}

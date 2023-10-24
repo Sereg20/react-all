@@ -1,0 +1,12 @@
+.myInput {
+    width: 100%;
+    padding: 5px 15px;
+    margin: 5px 0;
+    outline: none;
+    border: 1px solid rgb(121, 196, 188);
+    border-radius: 5px;
+}
+
+.myInput:active {
+    border: 1px solid rgb(88, 175, 166);
+}

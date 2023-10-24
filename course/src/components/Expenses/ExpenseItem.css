@@ -1,0 +1,30 @@
+.expense-item {
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 16px;
+    padding: 10px 20px;
+    background-color: rgb(146, 144, 144);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 1px 1px 4px black;
+    margin: 10px 0;
+}
+
+.expence-item__descr {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    color: white;
+}
+
+.expence-item__price {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: rgb(90, 24, 151);
+    border-radius: 12px;
+    border: 2px solid white;
+    
+}

@@ -1,0 +1,74 @@
+.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 4;
+    transition: all 300ms ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.scrolled {
+    background-color: white;
+    opacity: 0.95;
+    box-shadow: 0 4px 8px  rgba(0,0,0,0.3);
+    transition: all 300ms ease;
+}
+
+.logo {
+    width: 40px;
+    height: 35px;
+    margin-right: 2rem;
+}
+
+.menu {
+    margin: 10px 0;
+    cursor: pointer;
+    display: none;
+}
+
+.menu-toggled .menu-top {
+    transform: rotate(-45deg) translate(-4px, 10px);
+}
+
+.menu-toggled .menu-middle {
+    opacity: 0;
+}
+
+.menu-toggled .menu-bottom {
+    transform: rotate(45deg) translate(-4px, -10px);
+}
+
+.menu-top,
+.menu-middle,
+.menu-bottom {
+    width: 2rem;
+    height: 0.2rem;
+    margin: 0.4rem;
+    background-color: white;
+    transition: all 0.4s ease;
+    background-color: black;
+}
+
+@media screen and (max-width: 1228px) {
+    .contacts a {
+        height: 22px;
+    }
+
+    .contacts img {
+        width: 22px;
+        height: 22px;
+    }
+}
+
+@media screen and (max-width: 828px) {
+    .menu {
+        display: block;
+    }
+
+    .contacts {
+        display: none;
+    }
+}

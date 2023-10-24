@@ -1,0 +1,14 @@
+.btn {
+    padding: 6px 16px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgb(172, 51, 4);
+    border-radius: 14px;
+    font-size: 16px;
+    color: rgb(172, 51, 4);
+    cursor: pointer;
+}
+
+.emphasize {
+    background-color: rgb(172, 51, 4);
+    color: white;
+}

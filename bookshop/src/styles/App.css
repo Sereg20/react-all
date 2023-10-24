@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    margin: 0 20px;
+}
+
+.empty-list {
+    display: flex;
+    justify-content: center;
+    color: rgb(121, 196, 188);
+    font-size: 1.2em;
+}
+
+.user-list-title {
+    display: flex;
+    justify-content: center;
+}
+
+.user-component {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    border: 2px solid rgb(121, 196, 188);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.actions {
+    display: flex;
+}
+
+.user-action {
+    border: none;
+    border-radius: 5px;
+    width: 50px;
+    margin-right: 20px;
+    height: 30px;
+}
+
+.edit-button {
+    background-color: rgb(209, 245, 242);
+}
+
+.delete-button {
+    background-color: rgb(237, 139, 139);
+}
+
+.edit-button:hover {
+    background-color: rgb(121, 196, 188);
+}
+
+.delete-button:hover {
+    background-color: rgb(223, 119, 119);
+}
+
+.name {
+    margin-bottom: 5px;
+}

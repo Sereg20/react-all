@@ -1,0 +1,30 @@
+.content {
+    background-color: white;
+    width: 500px;
+    padding: 20px 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: min-content;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(55, 57, 81);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form input {
+    margin-bottom: 12px;
+}
+
+.form button {
+    margin-top: 12px;
+}
+
+.validation {
+    height: 20px;
+}

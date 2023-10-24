@@ -1,0 +1,24 @@
+.btn {
+    padding: 5px 15px;
+    font-size: 15px;
+    outline: none;
+    cursor: pointer;
+    background: none;
+    
+}
+
+.positive {
+    border: 1px solid rgb(2, 128, 2);
+    color: rgb(6, 102, 6);
+}
+
+.negative {
+    border: 1px solid rgb(241, 10, 10);
+    color: rgb(209, 11, 11);
+}
+
+.neutral {
+    border: 1px solid rgb(67, 23, 109);
+    color: rgb(93, 32, 150);
+}
+

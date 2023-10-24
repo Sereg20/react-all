@@ -1,0 +1,17 @@
+header {
+    height: 60px;
+    background-color: rgb(172, 51, 4);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.title {
+    font-size: 22px;
+    font-weight: bold;
+}

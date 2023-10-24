@@ -1,0 +1,12 @@
+.select {
+    border: 1px solid rgb(121, 196, 188);
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.select:hover {
+    border: 1px solid rgb(99, 177, 169);
+}

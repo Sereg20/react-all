@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  background-color: rgb(243, 242, 242);
+  height: 100vh;
+}
+
+.goods-list {
+  display: flex;
+  justify-content: center;
+}
+
+.msg {
+  margin-top: 100px;
+  font-size: 20px;
+}
+
+.error-msg {
+  color: red;
+}

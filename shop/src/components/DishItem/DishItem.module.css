@@ -1,0 +1,38 @@
+.item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.descr {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.price {
+    color: rgb(172, 51, 4);
+    font-weight: bold;
+}
+
+.amount {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.set-amount {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.set-amount input {
+    outline: none;
+    width: 35px;
+    margin-left: 15px;
+}

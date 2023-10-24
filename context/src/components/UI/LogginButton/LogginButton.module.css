@@ -1,0 +1,19 @@
+.btn {
+    background-color: rgba(0, 0, 0, 0.6);
+    outline: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    padding: 5px 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: all 200ms;
+}
+
+.btn:hover {
+    scale: 0.98;
+}
+
+.disabled {
+    background-color: rgb(221, 221, 221);
+}

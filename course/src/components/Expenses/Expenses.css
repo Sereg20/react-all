@@ -1,0 +1,8 @@
+.expenses-section {
+    border: 2px solid black;
+    border-radius: 14px;
+    background-color: rgb(94, 92, 92);
+    width: 70%;
+    padding: 10px 20px;
+
+}

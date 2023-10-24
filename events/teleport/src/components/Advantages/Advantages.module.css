@@ -1,0 +1,145 @@
+.back {
+    background: rgb(155,222,245);
+    background: linear-gradient(0deg, rgba(155,222,245,1) 0%, rgba(155,222,245,1) 9%, rgba(255,255,255,1) 100%);
+}
+
+.list {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    outline: none;
+    padding: 0;
+}
+
+.wrapper {
+    margin: 7vh 0;
+}
+
+.description {
+    margin-top: 3vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.advantages {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.advantages li {
+    list-style-type: none;
+    transition: all 0.4s ease;
+}
+
+.advantages li:hover {
+    transform: scale(1.1);
+}
+
+.title {
+    font-size: 45px;
+    color: rgb(83,202,238);
+    /* text-shadow: 0.5px 0.5px 0.5px #000; */
+}
+
+.sub-title {
+    font-size: 50px;
+    color: #ffffff;
+    /* text-shadow: 1px 1px 1px #000; */
+}
+
+.sub-description {
+    font-size: 25px;
+    color: #ffffff;
+    /* text-shadow: 1px 1px 1px #000; */
+}
+
+.main-logo {
+    width: 15vw;
+    cursor: pointer;
+}
+
+.main-img {
+    width: 35vw;
+}
+
+.details {
+    display: 'flex';
+    justify-content: 'space-between';
+    align-items: 'flex-start';
+    gap: '3rem';
+}
+
+.list-block {
+    height: fit-content;
+}
+
+@media screen and (max-width: 1282px) {
+    .sub-title {
+        font-size: 45px;
+    }
+    
+    .sub-description {
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width: 785px) {
+    .description {
+        margin: 0;
+    }
+
+    .advantages {
+        margin-top: 1rem;
+        flex-direction: column-reverse;
+    }
+
+    .title {
+        font-size: 39px;
+        text-align: center;
+    }
+
+    .list-block {
+        height: 150px;
+    }
+
+    .list {
+        display: none;
+    }
+
+    .wrapper {
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 625px) {
+    .wrapper {
+        margin-bottom: 5rem;
+    }
+
+    .list {
+        display: none;
+    }
+
+    .description {
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 585px) {
+    .wrapper {
+        margin-bottom: 8rem;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .wrapper {
+        margin-bottom: 11rem;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .wrapper {
+        margin-bottom: 15rem;
+    }
+}

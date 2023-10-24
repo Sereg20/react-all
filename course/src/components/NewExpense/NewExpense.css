@@ -1,0 +1,20 @@
+.new-expense {
+    border-radius: 14px;
+    width: 70%;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(116, 164, 236);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.new-expense button {
+    background-color: rgb(90, 24, 151);
+    color: white;
+    font-size: 20px;
+    outline: none;
+    border-radius: 8px;
+    padding: 12px;
+    border: none;
+}

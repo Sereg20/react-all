@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  /* font-family: 'Noto Sans JP', sans-serif; */
+  scroll-behavior: smooth;
+  /* font-family: 'Adigiana Ultra', sans-serif; */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(155, 222, 245);
+  overflow-y: overlay; 
+  overflow-x: hidden;
+}
+
+body.modal-open {
+  overflow: hidden;
+}
+
+button {
+  font-family: 'Adigiana Ultra', sans-serif;
+}
+
+::-webkit-scrollbar {
+  background-color: rgba(0, 0, 0, 0);
+  width: 0.7rem;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: rgba(72, 102, 128, 0.555);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(72, 102, 128);
+}
+
+.Toastify__toast-body {
+  color: rgb(0, 122, 255);
+  font-family: 'Adigiana Ultra', sans-serif;
+}

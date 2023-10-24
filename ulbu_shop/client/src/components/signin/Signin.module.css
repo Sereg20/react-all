@@ -1,0 +1,38 @@
+.form {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: min-content;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form input {
+    margin-bottom: 10px;
+}
+
+.form button {
+    width: 100px;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.switch-mode {
+    cursor: pointer;
+    color: rgb(1, 1, 117);
+}

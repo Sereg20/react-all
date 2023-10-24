@@ -1,0 +1,24 @@
+.item {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    padding: 4px 10px;
+    box-shadow: 0 0 6px  rgba(0,0,0,0.4);
+    cursor: pointer;
+    transition: all 300ms;
+    
+}
+
+.item:last-child {
+    margin-bottom: 0;
+}
+
+.item:hover {
+    box-shadow: 0 0 6px  rgba(0,0,0,0.6);
+    scale: 0.99;
+}
+
+.item img {
+    margin-right: 20px;
+}
